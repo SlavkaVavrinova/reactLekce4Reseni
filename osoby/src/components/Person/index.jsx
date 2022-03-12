@@ -1,4 +1,6 @@
 import React from 'react';
+import './style.css';
+
 import zena from './img/female.png';
 import muz from './img/male.png';
 

@@ -7,20 +7,3 @@
 html {
   font-family: 'Open Sans', sans-serif;
 }
-
-.person {
-  margin: 1rem;
-  padding: 1rem;
-  display: flex;
-  align-items: center;
-}
-.person--f {
-  background-color: pink;
-}
-
-.person--m {
-  background-color: lightblue;
-}
-.person__img {
-  margin-right: 1rem;
-}
