@@ -7,8 +7,16 @@ const Bulb = ({ on }) => {
 
 export default Bulb;
 
-/* varianta 2
+/* 
 
+Kratší totožná varianta
+
+const Bulb = ({ on }) => {
+  return <div className={on ? 'bulb bulb--on' : 'bulb'}></div>;
+};
+
+
+Zápis s props
 const Bulb = ( props ) => {
   return <div className={props.on === true ? 'bulb bulb--on' : 'bulb'}></div>;
 };
